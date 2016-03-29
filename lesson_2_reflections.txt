@@ -6,3 +6,7 @@ The staging area differs from the working directory and the repository in that i
 merely a list of which files from the working directory will be committed to the
 repository. It is valuable for the way it allows me to create a "rough draft" of a
 commit before pushing it to the repository.
+
+I can use the staging area to make sure I have one commit per logical change by
+running git diff --staged to compare the staging area to the latest commit and
+looking over the differences.
