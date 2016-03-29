@@ -1,0 +1,8 @@
+When I initialized a repository, it turned that folder into a repository containing its
+files and folders at the time. I needed to do it to be able to track these reflection
+files with Git version control.
+
+The staging area differs from the working directory and the repository in that it is
+merely a list of which files from the working directory will be committed to the
+repository. It is valuable for the way it allows me to create a "rough draft" of a
+commit before pushing it to the repository.
