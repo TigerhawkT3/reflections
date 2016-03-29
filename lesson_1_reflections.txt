@@ -1,0 +1,34 @@
+Viewing a diff (or fc) pointed out all the changes between the two versions,
+narrowing my search down to just a few lines instead of 1000. This made it
+a lot faster to find the error.
+
+Having easy access to the entire history of a file would let me "undo"
+any revisions that caused problems. If I didn't notice a problem immediately
+and kept making new revisions, I would be able to dig deeper and revert
+to older, working versions.
+
+Manual submission points let you compartmentalize changes into specific actions,
+like fixing a bug that was breaking paragraph formatting or adding a new font
+option. The disadvantage to this is that it relies on careful commit habits -
+forgetting to commit after key changes could make the version history less
+useful, and forgetting to commit entirely defeats the purpose of version control.
+
+Some version control systems, like Git, allow saving multiple files in one commit
+because the files commonly used with those systems are likely to be interconnected.
+For example, you might add a banner image to an HTML file and a style rule to
+the accompanying CSS file to style the banner. Other systems, like Google Docs,
+aren't intended for groups of related files. Changing an essay for an English class
+is unlikely to affect your grocery list.
+
+I can use git log to see a list containing each commit and some information about
+it, and git diff to compare two different commits in more detail than is available
+with git log.
+
+Using version control might make me more confident to make changes that could break
+something because I wouldn't have to worry that "known good" versions are
+Lost Forever. If something breaks, I just check out older and older versions
+until I find one that works, then I can look at the changes it introduced and
+(hopefully) find the bug.
+
+I want to use Git to work with my projects in the beginner-level Android Udacity course.
+I will also need to use Git in whatever software development job I eventually get.
