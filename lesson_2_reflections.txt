@@ -10,3 +10,15 @@ commit before pushing it to the repository.
 I can use the staging area to make sure I have one commit per logical change by
 running git diff --staged to compare the staging area to the latest commit and
 looking over the differences.
+
+Branches would be helpful in keeping my history organized in situations where I want
+to try out a new feature, attempt a refactor, or just play around with new things.
+I could create a branch to add, for example, online play to a chess game. If this
+feature introduced security issues, I could abandon that branch without affecting
+the main branch. On the other hand, if it worked out, I could merge it with the
+main branch to add the feature without having to manually roll in any other
+fixes or updates that I was working on in the meantime.
+
+Diagrams help me visualize the branch structure by identifying where each branch
+splits off from the master branch and providing a clear path back to each branch's
+parent commit.
