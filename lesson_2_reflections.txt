@@ -22,3 +22,9 @@ fixes or updates that I was working on in the meantime.
 Diagrams help me visualize the branch structure by identifying where each branch
 splits off from the master branch and providing a clear path back to each branch's
 parent commit.
+
+The result of merging two branches together was that all the changes from both
+branches were incorporated into the checked out branch (master in this case).
+We represent it in the diagram the way we do because the change for coins was
+kept separate from the master, and then later it was brought back, with all the
+other changes to the master present as well.
