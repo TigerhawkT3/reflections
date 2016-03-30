@@ -28,3 +28,9 @@ branches were incorporated into the checked out branch (master in this case).
 We represent it in the diagram the way we do because the change for coins was
 kept separate from the master, and then later it was brought back, with all the
 other changes to the master present as well.
+
+Git's automatic merging can save lots of time when the changes are simple enough
+for its automatic parser to figure out. However, more complex changes are likely
+to confuse the parser and require manual intervention. Always doing merges
+manually takes more time, but guarantees that every merge decision has been
+reviewed by a human (hopefully).
