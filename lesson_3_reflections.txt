@@ -1,0 +1,5 @@
+There are many reasons for creating a remote repository rather than keeping everything local.
+First, the remote repository can serve as a backup in case I lose my local files. Second, I
+can work on the project while I'm away from my main computer. Third, the remote repository
+can serve as a "known good" snapshot, with production-ready commits. Fourth, a remote repository
+like GitHub allows multiple users to remotely collaborate on a project.
