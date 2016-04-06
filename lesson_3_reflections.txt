@@ -3,3 +3,8 @@ First, the remote repository can serve as a backup in case I lose my local files
 can work on the project while I'm away from my main computer. Third, the remote repository
 can serve as a "known good" snapshot, with production-ready commits. Fourth, a remote repository
 like GitHub allows multiple users to remotely collaborate on a project.
+
+I would want to always pull changes manually rather than having Git automatically stay
+up-to-date with my remote repository for the same reason I want to make manual commits: for
+more control over any changes. Maybe someone pushed a commit that broke something - I wouldn't
+want to open the project locally and find that changes from an automatic pull are causing problems.
