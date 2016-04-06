@@ -8,3 +8,10 @@ I would want to always pull changes manually rather than having Git automaticall
 up-to-date with my remote repository for the same reason I want to make manual commits: for
 more control over any changes. Maybe someone pushed a commit that broke something - I wouldn't
 want to open the project locally and find that changes from an automatic pull are causing problems.
+
+Forking a repository on GitHub clones it and places the clone into your control. I would do this
+when I wanted to modify someone else's repository with my own changes or additions. Cloning makes
+a copy of a repository. I would do this when I wanted to move a remote repository's files onto my
+local machine. Branches allow me to split a repository off into a new version. I would do this when
+I wanted to experiment with things that might break something, or when I wanted to created unique
+versions of my project (as with the easy-mode Asteroids branch).
