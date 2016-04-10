@@ -15,3 +15,14 @@ a copy of a repository. I would do this when I wanted to move a remote repositor
 local machine. Branches allow me to split a repository off into a new version. I would do this when
 I wanted to experiment with things that might break something, or when I wanted to created unique
 versions of my project (as with the easy-mode Asteroids branch).
+
+The benefit of having a copy of the last known state of the remote stored locally is that it allows
+you to diff your local work against a reliable state, which can help you keep track of the changes
+you've made.
+
+Without using Git or GitHub, I would collaborate by sending emails to all participants in a project
+with a zip file of the latest files. With Git and GitHub, I would collaborate by maintaining a
+repository on GitHub and pushing commits with every significant change. The former method would be
+easier to learn and introduce to several people for a short-term project, but the latter would be
+better suited to larger projects (more contributors, contributors who may not know each other, more
+files, bigger files, etc.).
