@@ -26,3 +26,9 @@ repository on GitHub and pushing commits with every significant change. The form
 easier to learn and introduce to several people for a short-term project, but the latter would be
 better suited to larger projects (more contributors, contributors who may not know each other, more
 files, bigger files, etc.).
+
+Even with the complexity of managing multiple branches in a remote, public repository, the same reasons
+for making changes in separate branches still apply. It allows you to make experimental or divergent
+changes, like bug fixes, new features, or translated versions, without impacting development on the
+main, stable branch. Making changes directly to master may be preferable if one wishes to avoid dealing
+with branches and merge conflicts, but that sort of defeats the purpose of using version control.
